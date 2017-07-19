@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+	<script>
+		let socket = io('http://127.0.0.1:1337/');
+
+		socket.on('ddd', data => console.log(data));
+
+		// socket.emit('ddd', 'teeett');
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

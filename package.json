@@ -1,0 +1,10 @@
+{
+  "name": "trade-server",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "mysql": "^2.13.0",
+    "node-static": "^0.7.9",
+    "socket.io": "^2.0.3"
+  }
+}
